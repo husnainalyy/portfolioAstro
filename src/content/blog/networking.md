@@ -1,5 +1,5 @@
 ---
-title: The Power of Networking-Why Software Engineering Students Should Invest in University Connections
+title: The Power of Connections
 publishDate: 2024-08-23 00:00:00
 img: /assets/connection.jpg
 img_alt: This is how devs carry their laptops.
