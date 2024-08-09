@@ -1,35 +1,43 @@
 ---
-title: 🏠 Homebuilder Website
-publishDate: 2023-10-01 00:00:00
-img: /assets/gfo.png
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+title: 📚 Infinity Blogs
+publishDate: 2024-03-01 00:00:00
+img: /assets/blog.png
+img_alt: A screenshot of the Infinity Blogs platform showcasing blog articles and search functionality.
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  A full-featured blogging platform built with the MERN stack, Tailwind CSS, and Bootstrap. Users can search, read, and explore a variety of blogs, while admins have access to a custom dashboard for writing and managing posts.
 tags:
-  - Developer
-  - WordPress
-  - Migration
+  - MERN Stack
+  - Tailwind CSS
+  - Bootstrap
+  - Editor.js
 ---
 
-> Cutting edge homebuilder web app with dynamic XML feed outputs to Zillow and NHS BDX
+> Explore and Share Knowledge with Infinity Blogs: A Comprehensive Blogging Platform
 
-As a client-facing developer, our agency embarked on an innovative journey to develop a cutting-edge web app for a prominent home builder. This remarkable web application not only redefines the home-building industry but also integrates dynamic XML feed outputs to Zillow and NHS BDX, enhancing the property listings and their reach.
+#### Introducing Infinity Blogs: A Dynamic Blogging Platform
 
-#### A Vision of Progress: Dynamic XML Feed Integration
+Infinity Blogs is a robust platform designed for both readers and writers, built with the MERN stack (MongoDB, Express, React, Node.js), Tailwind CSS, and Bootstrap. This project provides an engaging experience for users to discover, read, and interact with various blog posts, while offering a powerful admin interface for content management.
 
-Our web app introduces a visionary approach to home building by seamlessly integrating dynamic XML feed outputs to platforms like Zillow and NHS BDX. This strategic move ensures that property listings remain up to date, and it broadens the reach of the listings to prospective buyers in search of their dream homes.
+#### Key Features
+
+- **User Functionality**:
+  - **Search and Discover**: Users can search for blogs using keywords and explore the latest posts directly from the home page.
+  - **Read and Interact**: Allows users to read blog posts in detail, with options to view more content as they scroll.
+  - **Categories and Filters**: Browse blogs by categories to find content of interest easily.
+  - **Loading More**: Implemented infinite scrolling or "Load More" functionality for seamless content exploration.
+
+- **Admin Dashboard**:
+  - **Blog Management**: Admins can write, edit, and publish blogs using the Editor.js library, providing a rich text editing experience.
+  - **Content Control**: Manage blog posts, including drafting and scheduling content.
 
 #### Technology Stack
 
-- Custom Web Application: We crafted a bespoke web application tailored to the unique requirements of the home builder.
-- WordPress Stack: The backbone of our solution is built on WordPress, providing flexibility and scalability.
-- Elementor: We employed Elementor, a versatile page builder, for data migration and content creation which was perfect for hand off to the client.
-  HTML, CSS, and JavaScript: Front-end technologies are harnessed to design an attractive and user-friendly interface.
-- XML Integration: Custom XML integration enables the seamless transfer of property listings to Zillow and NHS BDX.
-- Data Migration Expertise: Our team's proficiency in data migration ensures a smooth transition of existing data into the new platform.
-- Security Protocols: Stringent security measures are in place to safeguard sensitive data and maintain the privacy of users.
+- **MERN Stack**: Utilizes MongoDB for the database, Express.js and Node.js for the backend, and React for the frontend.
+- **Tailwind CSS & Bootstrap**: Employed for styling, ensuring a modern, responsive design.
+- **Editor.js**: Integrated for a user-friendly text editor experience on the admin side.
+- **Axios**: Used for making HTTP requests to interact with the backend API.
 
-Our web app represents a leap forward in the home-building industry, leveraging dynamic XML feed outputs to bring property listings to a wider audience. By combining the power of WordPress, Elementor, and a versatile technology stack, we're reshaping the way homes are discovered and purchased. This project is a testament to our agency's commitment to innovation and excellence, delivering an exceptional solution that bridges the gap between home builders and eager buyers. Together, we're propelling the industry into a new era of opportunity and accessibility.
+#### Conclusion
 
-— Credit: ShakeWell Creative Agency
+Infinity Blogs stands as a testament to effective full-stack development, combining a rich feature set with a clean, user-friendly interface. This project not only demonstrates technical proficiency with the MERN stack and modern styling frameworks but also highlights the ability to create a seamless experience for both users and administrators.
+

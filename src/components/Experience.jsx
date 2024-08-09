@@ -2,100 +2,77 @@ import React, { useState } from "react";
 import "../styles/accordion.css";
 
 const experiences = [
-  {
-    company: "DISCO",
-    title: "🪩 Manager, Web Development & Design",
-    duration: "June 2024 - Present",
-    location: "Austin, Texas, USA",
-    current: true,
-    bullets: [
-      "I lead a team of web developers and designers to deliver enterprise web applications that support cloud-based AI legal management solutions to help law practitioners analyze and manage litigation.",
-    ],
-  },
-  {
-    company: "ShakeWell Creative",
-    title: "💻 Lead Front End Developer & UI Designer",
-    duration: "Sep 2022 - June 2024",
-    location: "Austin, Texas, USA",
-    current: false,
-    bullets: [
-      "I lead a small team to deliver web applications for various clients, including Fortune 500 companies and state government agencies.",
-    ],
-  },
-  {
-    company: "Hero Digital",
-    title: "🧑‍💻 Lead Production Designer",
-    duration: "Jul 2022 - Sep 2022",
-    location: "Austin, Texas, USA",
-    bullets: [
-      "Contract for Apple ",
-      "Developed a high-fidelity prototype",
-      "Skills: VizApp Visual Design, Adobe Creative Suite, Figma.",
-    ],
-  },
-  {
-    company: "DoStuff Media",
-    title: "⚙️ Project Manager",
-    duration: "Jun 2022 - Sep 2022",
-    location: "Austin, Texas, USA",
-    bullets: ["Managed content creators for promotional activities."],
-  },
-  {
-    company: "Creative Services, Inc.",
-    title: "📬 Digital Marketing Manager",
-    duration: "Sep 2020 - Jul 2022",
-    location: "Austin, Texas, USA",
-    bullets: [
-      "Designed website UI and managed website development.",
-      "Implemented automated marketing campaigns in HubSpot.",
-    ],
-  },
-  {
-    company: "KEI Abroad",
-    title: "🌎 Senior Regional Manager",
-    duration: "Sep 2014 - Apr 2020",
-    location: "Austin, Texas, USA",
-    bullets: [
-      "Facilitated student enrollment in study abroad programs across Spain, Thailand, and Costa Rica.",
-      "Expanded organization's global presence and fostered international educational opportunities.",
-    ],
-  },
-  {
-    company: "SHI International Corp.",
-    title: "📞 Inside Account Executive",
-    duration: "Jan 2014 - Sep 2014",
-    location: "Austin, Texas, USA",
-    bullets: [
-      "Exceeded sales targets through effective prospecting strategies.",
-      "Managed sales pipeline and customer relationships to drive revenue growth.",
-    ],
-  },
-  {
-    company: "Centre d'Aprenentatge Empresarial",
-    title: "🗣️ English Language Instructor",
-    duration: "Sep 2013 - Nov 2013",
-    location: "Lleida, Spain",
-    bullets: ["Taught English language to professionals at various levels."],
-  },
-  {
-    company: "Diversity Abroad",
-    title: "🌐 Global Education Representative",
-    duration: "Aug 2012 - Jul 2013",
-    location: "Berkeley, California",
-    bullets: [
-      "Promoted global education access and diversity in study abroad programs.",
-    ],
-  },
-  {
-    company: "AmCham Costa Rica",
-    title: "🇨🇷 Marketing Intern",
-    duration: "May 2011 - Aug 2011",
-    location: "San José, Costa Rica",
-    bullets: [
-      "Contributed to bilingual marketing campaigns targeting multinational companies.",
-    ],
-  },
+    {
+        company: "Infinity Wave Inc",
+        title: "🖥️ Web Development Intern",
+        duration: "June 2024 - Present",
+        location: "Lahore, Punjab, Pakistan",
+        current: true,
+        bullets: [
+            "Developing and maintaining web applications using the MERN Stack (MongoDB, Express, React, Node.js).",
+            "Utilizing Tailwind CSS to create responsive and visually appealing user interfaces.",
+            "Designing and implementing user-friendly web interfaces with HTML, CSS, and JavaScript.",
+            "Collaborating with the team to resolve technical issues and enhance project functionality.",
+        ],
+    },
+    {
+        company: "buildspace",
+        title: "💡 Gaudmire",
+        duration: "June 2024 - August 2024",
+        location: "United States",
+        current: false,
+        bullets: [
+            "Collaborating on cutting-edge projects that push the boundaries of technology and innovation.",
+            "Developing and implementing creative solutions for complex technical challenges.",
+            "Participating in community-driven tech initiatives and hackathons to drive progress and share knowledge.",
+            ],
+    },
+    {
+        company: "GDSC COMSATS University Lahore",
+        title: "📱 Social Media Lead",
+        duration: "November 2023 - June 2024",
+        location: "Lahore, Punjab, Pakistan",
+        current: false,
+        bullets: [
+            "Leading the digital narrative and managing social media engagement for the community.",
+            "Building a vibrant online presence and fostering active engagement among members.",
+        ],
+    },
+    {
+        company: "Microsoft",
+        title: "🌐 Microsoft Student Ambassador",
+        duration: "November 2023 - June 2024",
+        location: "Pakistan",
+        current: false,
+        bullets: [
+            "Contributing knowledge and resources to the Microsoft Learn community.",
+            "Engaging with fellow students and professionals to promote technological advancements.",
+        ],
+    },
+    {
+        company: "ACM Student Chapter, CUI Lahore",
+        title: "📣 Director of Social Media",
+        duration: "September 2023 - January 2024",
+        location: "Lahore, Punjab, Pakistan",
+        current: false,
+        bullets: [
+            "Overseeing social media strategies and content creation for the ACM chapter.",
+            "Enhancing the chapter's online visibility and engagement through effective social media management.",
+        ],
+    },
+    {
+        company: "ACM Student Chapter, CUI Lahore",
+        title: "🎯 Deputy Director of Social Media Team",
+        duration: "March 2023 - June 2023",
+        location: "Lahore, Punjab, Pakistan",
+        current: false,
+        bullets: [
+            "Supporting the social media team in executing campaigns and managing content.",
+            "Assisting in strategic planning to boost online presence and engagement.",
+        ],
+    },
 ];
+
 
 export function ExperienceList() {
   return (

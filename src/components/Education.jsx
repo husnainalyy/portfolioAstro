@@ -3,17 +3,17 @@ import "../styles/accordion.css";
 
 const education = [
   {
-    company: "Texas A&M University",
-    title: "BA International Studies, Minor in Spanish",
-    duration: "2008-2012",
-    location: "College Station, Texas, USA",
+    company: "Comsats University Islamabad",
+    title: "Software Engineering",
+    duration: "2023-2027",
+    location: "Lda Avenue, Lahore, Pakistan",
     bullets: [""],
   },
   {
-    company: "Universidad de Costa Rica",
-    title: "Study Abroad",
-    duration: "2009",
-    location: "San José, Costa Rica",
+    company: "District Public School and college",
+    title: "Matric & Intermediate",
+    duration: "2022",
+    location: "Gt road Okara, Pakistan",
     bullets: [""],
   },
 ];
