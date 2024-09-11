@@ -18,6 +18,8 @@ tags:
 
 > Building a Dynamic Agency Website with MERN Stack
 
+Explore the site here: [Infinity Waves Inc](https://www.infinitywaveinc.com/)
+
 #### Overview
 
 Infinity Waves Inc represents a sophisticated agency website designed with both client and admin functionalities. As a group project during the Infinity Wave Solutions internship, this platform showcases advanced web development techniques and technologies.
