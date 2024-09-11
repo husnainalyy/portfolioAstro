@@ -14,6 +14,9 @@ tags:
 
 > Explore and Share Knowledge with Infinity Blogs: A Comprehensive Blogging Platform
 
+Explore the site here: [Infinity Blogs](https://www.infinitywaveinc.online/)
+
+
 #### Introducing Infinity Blogs: A Dynamic Blogging Platform
 
 Infinity Blogs is a robust platform designed for both readers and writers, built with the MERN stack (MongoDB, Express, React, Node.js), Tailwind CSS, and Bootstrap. This project provides an engaging experience for users to discover, read, and interact with various blog posts, while offering a powerful admin interface for content management.
